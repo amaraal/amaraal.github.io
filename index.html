@@ -2,7 +2,9 @@
 <html lang="pt">
 
 <head>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/icon.ico?">
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <link rel="stylesheet" href="./styles/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,43 +16,91 @@
     <!-- meta tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://computadoresfazem.art/">
-    <meta property="og:title" content="site pedro amaral (?)">
+    <meta property="og:title" content="site pedro amaral">
     <meta property="og:description" content="links relevantes para minha existencia">
     <meta property="og:image" content="https://i.imgur.com/CXV0zua.jpeg">
 
-    <meta name="twitter:creator" content="@pedr_amaral">
     <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <meta name="twitter:creator" content="@pedr_amaral">
     <meta name="twitter:url" content="https://computadoresfazem.art/">
-    <meta name="twitter:title" content="site pedro amaral (?)">
+    <meta name="twitter:title" content="site pedro amaral">
     <meta name="twitter:description" content="links relevantes para minha existencia">
     <meta name="twitter:image" content="https://i.imgur.com/CXV0zua.jpeg">
-
-
 </head>
 
 <body>
-    <div class="center">
-        <h1>site pedro amaral (?)</h1>
-        <table>
-            <tr>
-                <td>twitter:</td>
-                <td><a href="https://www.twitter.com/pedr_amaral">cringe</a></td>
-            </tr>
-            <tr>
-                <td>instagram:</td>
-                <td><a href="https://www.instagram.com/pedro.arrudas/">based</a></td>
-            </tr>
-            <tr>
-                <td>lastfm:</td>
-                <td><a href="https://www.last.fm/user/homerojunkie">o que eu escuto (repdill)</a></td>
-            </tr>
-            <tr>
-                <td>github:</td>
-                <td><a href="https://www.github.com/amaraal/">programa as vezes (blackpill)</a></td>
-            </tr>
-        </table>
-        <img id="maco" src="abraco.gif" alt="macaquinhos se abraçando">
-    </div>
+    <section class="flex-container">
+
+        <div class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">o que estou escutando agora 👇</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <a class="now-playing" href="https://nowplaying.computadoresfazem.art/now-playing?open">
+                    <img src="https://nowplaying.computadoresfazem.art/now-playing" width="320" height="64">
+                </a>
+            </div>
+        </div>
+
+        <div class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">top musicas do mes</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <a class="now-playing" href="https://nowplaying.computadoresfazem.art/top-tracks?i=1&open">
+                    <img src="https://nowplaying.computadoresfazem.art/top-tracks?i=1" width="320" height="64">
+                </a><br>
+                <a class="now-playing" href="https://nowplaying.computadoresfazem.art/top-tracks?i=2&open">
+                    <img src="https://nowplaying.computadoresfazem.art/top-tracks?i=2" width="320" height="64">
+                </a><br>
+                <a class="now-playing" href="https://nowplaying.computadoresfazem.art/top-tracks?i=3&open">
+                    <img src="https://nowplaying.computadoresfazem.art/top-tracks?i=3" width="320" height="64">
+                </a>
+            </div>
+        </div>
+
+        <div class="window" id="redes">
+            <div class="title-bar">
+                <div class="title-bar-text">redes sociais</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <table>
+                    <tr>
+                        <td>twitter:</td>
+                        <td><a href="https://www.twitter.com/pedr_amaral">posts questionaveis</a></td>
+                    </tr>
+                    <tr>
+                        <td>instagram:</td>
+                        <td><a href="https://www.instagram.com/pedro.arrudas/">fotos legais</a></td>
+                    </tr>
+                    <tr>
+                        <td>lastfm:</td>
+                        <td><a href="https://www.last.fm/user/homerojunkie">o que eu escuto</a></td>
+                    </tr>
+                    <tr>
+                        <td>github:</td>
+                        <td><a href="https://www.github.com/amaraal/">eu programo as vezes</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </section>
 </body>
 
 </html>
