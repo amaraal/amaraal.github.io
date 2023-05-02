@@ -3,7 +3,8 @@ html {
     background-image: url("../images/graybrickbg.jpg");
 }
 
-h1, p {
+h1,
+p {
     text-align: center;
 }
 
@@ -20,12 +21,15 @@ h1, p {
 }
 
 .window#redes {
-    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
-    font-size: 18px;
     width: 337px;
 }
 
 table {
     background-color: #c0c0c0;
     margin: 0px auto;
+}
+
+td {
+    font-size: 18px;
+    font-family: sans-serif;
 }
