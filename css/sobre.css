@@ -1,5 +1,6 @@
 * {
     font-family: 'Arial', sans-serif;
+    color: white;
     cursor: url(../images/cursor/wii-pointer-ccw.png), default;
 }
 
@@ -21,28 +22,32 @@ table tr td:first-child {
 }
 
 body {
-    background-image: linear-gradient(to right, rgba(219, 221, 198, 1), rgba(219, 221, 198, 1) 50%, rgba(0, 0, 0, 0)), url(../images/stars_background.gif);
+    background-image: linear-gradient(to right, #040404, #040404 50%, rgba(0, 0, 0, 0)), url(../images/bluestars2.gif);
+    background-size: auto, 30%;
 }
 
 section {
     max-width: 50%;
 }
 
+/* p {
+    text-align: justify;
+    text-justify: distribute;
+} */
+
 h1 {
     text-align: left;
 }
 
-#foto {
-    height: 200px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    border: 3px dashed black;
+.foto {
+    max-width: 100%;
+    /* margin-left: 10%; */
+    /* border: 3px dashed #086c95; */
 }
 
 hr {
     border-top: none;
-    border-bottom: .5px solid black;
+    border-bottom: .5px solid white;
     width: 100%;
     margin: 0 0;
 }
@@ -50,16 +55,11 @@ hr {
 @media screen and (max-width: 400px) {
     body {
         background-image: none, none, none;
-        background-color: rgba(219, 221, 198, 1)
+        background-color: #040404;
     }
 
     section {
         max-width: 100%;
     }
-
-    #foto {
-        position: unset;
-    }
-
 
 }
