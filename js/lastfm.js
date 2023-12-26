@@ -2,7 +2,7 @@ const API_KEY = "904cfab1212cb6558afcfde94bf4a4e3"
 const USER = "homerojunkie"
 const PERIOD = "7day"
 const LIMIT = 10
-const FETCH_URL = `http://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=${USER}&api_key=${API_KEY}&limit=${LIMIT}&period=${PERIOD}&format=json`
+const FETCH_URL = `https://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=${USER}&api_key=${API_KEY}&limit=${LIMIT}&period=${PERIOD}&format=json`
 
 var itens = document.querySelector("#toptracks_list").getElementsByTagName("li");
 
